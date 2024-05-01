@@ -26,12 +26,14 @@ img {
   overflow-clip-margin: content-box;
   overflow: clip;
 }
-h3 {
-  text-align: center;
-}
-th,td {
-  border: 1px solid rgb(183, 95, 95);
+th,
+td {
+  border: 1px solid rgb(72, 67, 67);
   padding: 8px 10px;
+}
+thead,
+tfoot {
+  background-color: rgb(214, 153, 222);
 }
  td:last-of-type {
   text-align: center;
